@@ -1,3 +1,7 @@
+body{
+  color:#32F7BD;
+  background-color:  #202D2D;
+}
 .weatherDataCont{
   background-color: #256051;
   padding: 2%;
@@ -12,4 +16,11 @@
 h1{
   color:#32F7BD;
   text-decoration: underline #32F7BD;
+}
+.weatherExtraInfoCont{
+  padding: 1%;
+}
+i{
+  color:#58D3F7;
+  padding: 1%;
 }
