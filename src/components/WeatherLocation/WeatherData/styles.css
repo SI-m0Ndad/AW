@@ -1,6 +1,15 @@
 .weatherDataCont{
-  background-color: #58D3F7;
-  padding: 4%;
-  border: 4px solid  #FF2B57;
+  background-color: #256051;
+  padding: 2%;
+  color:#32F7BD;
   border-radius: 15px;
+}
+.weatherLocation{
+  border: 4px solid  #32F7BD;
+  padding: 4%;
+  background-color:  #202D2D;
+}
+h1{
+  color:#32F7BD;
+  text-decoration: underline #32F7BD;
 }

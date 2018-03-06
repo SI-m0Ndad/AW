@@ -28,7 +28,6 @@ class WeatherLocation extends Component {
       city,
       data: null
     }
-    console.log('Constructor');
   }
  
     // this.setState({
@@ -57,7 +56,6 @@ class WeatherLocation extends Component {
   //   console.log('ComponentDidUpdate');
   // }
   render = () => {
-    console.log('Render');
     const {city, data} = this.state;
     return(
       <div className='weatherLocation'>
