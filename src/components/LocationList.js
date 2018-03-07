@@ -1,6 +1,8 @@
 import React from 'react';
 import WeatherLocation from './WeatherLocation';
 import PropTypes from 'prop-types';
+import Paper from 'material-ui/Paper';
+import './WeatherLocation/WeatherData/styles.css';
 
 
 
@@ -11,15 +13,17 @@ const LocationList = ({cities, onSelectLocation}) =>{
   }
   const strToComponent = (cities) =>(
     cities.map(city => (
-      <WeatherLocation 
-        key = {city} 
-        city = {city}
-        onWeatherLocationClick = {()=> handleWeatherLocationClick(city) }
-      />
+      <Paper zDepth = {1}>
+        <WeatherLocation 
+          key = {city} 
+          city = {city}
+          onWeatherLocationClick = {()=> handleWeatherLocationClick(city) }
+        />
+      </Paper>
     ))
   )
   return(
-    <div>
+    <div className = 'locationList'>
       {strToComponent(cities)}
     </div>
   )
