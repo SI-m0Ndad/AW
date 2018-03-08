@@ -17,7 +17,7 @@ import PropTypes from 'prop-types';
 */
   const Location = ({city}) => (
       <div className = 'locationCont' >
-        <h1 className = 'title-city'>{city}</h1>
+        <h2 className = 'title-city'>{city}</h2>
       </div>    
   )
 Location.propTypes = {

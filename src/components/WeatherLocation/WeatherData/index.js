@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import WeatherTemperature from './WeatherTemperature';
 import WeatherExtraInfo from './WeatherExtraInfo';
 import './styles.css';
+
 const WeatherData = ({data})=> {
   const{temperature, weatherState, humidity, wind} =
     data;
