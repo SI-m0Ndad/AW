@@ -29,5 +29,8 @@
 .detail{
   background-color: #BDBDBD;
   height:  85vh;
+  overflow: auto;
+  padding-left: 0 30%;
   width: 100%;
+  margin-top: 4%;
 }
