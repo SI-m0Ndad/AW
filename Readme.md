@@ -14,7 +14,8 @@ Pues aqui llega weather, aplicacion web, que permite ver el tiempo para 7 dias! 
 * Bogota
 * Buenos Aires
 
-
+## Anotaciones extras
+Para poder visualizarlo debe desactivar la proteccion de la pagina, como es un prototipado y se utilizo para aprender en clases react y redux no se configuro como pagina segura.
 
 ## Desarrollado para
 [Laboratoria](http://www.laboratoria.la/)
